@@ -1,4 +1,5 @@
 import 'package:access_device_features/pages/contacts.dart';
+import 'package:access_device_features/pages/location_feature.dart';
 import 'package:flutter/material.dart';
 import 'package:crystal_navigation_bar/crystal_navigation_bar.dart';
 
@@ -62,7 +63,7 @@ class HomePageState extends State<HomePage> {
   Widget _currentPage(int index) {
     switch (index) {
       case 1:
-        return const SizedBox.expand();
+        return const LocationPage();
       case 2:
         return const SizedBox.expand();
       case 3:
